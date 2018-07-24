@@ -1,7 +1,7 @@
-(defproject riemann-flapjack-output "0.0.1-SNAPSHOT"
-  :description "A Riemann plugin to output events to Flapjack"
+(defproject riemann-redis-output "0.0.1-SNAPSHOT"
+  :description "A Riemann plugin to output events to Redis"
   :dependencies [
-                 [com.taoensso/carmine "2.7.0" :exclusions [org.clojure/clojure]]
+                 [com.taoensso/carmine "2.18.1" :exclusions [org.clojure/clojure]]
                 ]
   :profiles {
   	:dev {:dependencies [
